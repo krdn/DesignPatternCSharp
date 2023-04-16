@@ -7,18 +7,18 @@ namespace Iterator
 {
     public class Item
     {
-        private string name;
-        private int cost;
+        private string _name;
+        private int _cost;
 
         public Item(string name, int cost)
         {
-            this.name = name;
-            this.cost = cost;
+            this._name = name;
+            this._cost = cost;
         }
 
         public override string ToString()
         {
-            return "(" + name + ", " + cost + ")";
+            return "(" + _name + ", " + _cost + ")";
         }
     }
 }

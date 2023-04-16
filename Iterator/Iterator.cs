@@ -7,7 +7,7 @@ namespace Iterator
 {
     public interface Iterator
     {
-        Boolean next();
-        Object current();
+        bool Next();
+        Object Current();
     }
 }

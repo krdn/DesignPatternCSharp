@@ -7,6 +7,6 @@ namespace Iterator
 {
     public interface Aggregator
     {
-        Iterator Iterator { get; set; }
+        Iterator Iterator();
     }
 }

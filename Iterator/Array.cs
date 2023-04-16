@@ -7,11 +7,11 @@ namespace Iterator
 {
     public class Array : Aggregator
     {
-        private Item[] items;
+        private Item[] items { get; set; }
 
-        public Array(int size)
+        public Array(Item[] items)
         {
-            items = new Item[size];
+            this.items =  items;
         }   
 
         public Iterator Iterator { get; set; }
