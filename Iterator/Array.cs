@@ -7,13 +7,25 @@ namespace Iterator
 {
     public class Array : Aggregator
     {
-        private Item[] items { get; set; }
+        private Item[] Items;
 
         public Array(Item[] items)
         {
-            this.items =  items;
-        }   
+            this.Items =  items;
+        }
 
-        public Iterator Iterator { get; set; }
+        public Item getItem(int index)
+        {
+            return Items[index];
+        }
+
+        public int getCount()
+        {
+            return Items.Length;
+        }
+        Iterator Aggregator.Iterator()
+        {
+            return new ArrayIterator(this); 
+        }
     }
 }
