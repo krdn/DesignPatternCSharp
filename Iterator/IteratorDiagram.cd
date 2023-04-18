@@ -10,11 +10,11 @@
   <Class Name="Iterator.Array">
     <Position X="2.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAQAAACAAAAAAAAAAAAAAAAAAAAAAAgAAEAAA=</HashCode>
+      <HashCode>AAQAACAAAAAAAEAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Array.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
-      <Field Name="Items" />
+      <Field Name="_items" />
     </ShowAsAssociation>
     <Lollipop Position="0.335" />
   </Class>
