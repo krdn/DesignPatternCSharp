@@ -5,27 +5,29 @@ using System.Text;
 
 namespace Iterator
 {
-    public class Array : Aggregator
+    public class Array : IAggregator
     {
-        private Item[] Items;
+        private readonly Item[] _items;
 
         public Array(Item[] items)
         {
-            this.Items =  items;
+            this._items =  items;
         }
 
-        public Item getItem(int index)
+        public Item GetItem(int index)
         {
-            return Items[index];
+            return _items[index];
         }
 
-        public int getCount()
+        public int GetCount()
         {
-            return Items.Length;
+            return _items.Length;
         }
-        Iterator Aggregator.Iterator()
+
+        public IIterator Iterator()
         {
-            return new ArrayIterator(this); 
+            return new ArrayIterator(this);
         }
+ 
     }
 }

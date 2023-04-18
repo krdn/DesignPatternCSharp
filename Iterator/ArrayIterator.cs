@@ -1,29 +1,25 @@
 ﻿namespace Iterator
 {
-    internal class ArrayIterator : Iterator
+    internal class ArrayIterator : IIterator
     {
-        private Array _array;
-        private int _index;
+        private readonly Array _array;
+        private          int   _index;
 
         public ArrayIterator(Array array)
         {
             this._array = array;
-            this._index = 0;
+            this._index = -1;
         }
 
         public bool Next()
         {
-            if (_index < _array.getCount())
-            {
-                _index++;
-                return true;
-            }
-            return false;
+            this._index++;
+            return this._index < this._array.GetCount();
         }
 
-        public Object Current()
+        public object Current()
         {
-            return _array.getItem(_index);
+            return _array.GetItem(_index);
         }
     }
 }
