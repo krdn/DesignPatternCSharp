@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="_02.Strategy.Article">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQIAAAAABAAAAAAAAAAAAAAAAACAABAQAAAA=</HashCode>
+      <FileName>Article.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_02.Strategy.DisplayArticleTemplate">
+    <Position X="1.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAkAAAAAAAQAAEgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DisplayArticleTemplate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_02.Strategy.SimpleDisplayArticle">
+    <Position X="1" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAEgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SimpleDisplayArticle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="_02.Strategy.CaptionDisplayArticle">
+    <Position X="4" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAEgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CaptionDisplayArticle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="D2Coding" Size="9.75" />
+</ClassDiagram>

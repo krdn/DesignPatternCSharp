@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator", "Iterator\Iterator.csproj", "{416216E0-D905-4125-9757-DB838D788FEF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Iterator", "Iterator\Iterator.csproj", "{416216E0-D905-4125-9757-DB838D788FEF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.Strategy", "02.Strategy\02.Strategy.csproj", "{DDE07693-938A-46F0-B66F-F545699EF89A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{416216E0-D905-4125-9757-DB838D788FEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{416216E0-D905-4125-9757-DB838D788FEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{416216E0-D905-4125-9757-DB838D788FEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE07693-938A-46F0-B66F-F545699EF89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE07693-938A-46F0-B66F-F545699EF89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE07693-938A-46F0-B66F-F545699EF89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE07693-938A-46F0-B66F-F545699EF89A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
