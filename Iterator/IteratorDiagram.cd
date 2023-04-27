@@ -10,7 +10,7 @@
   <Class Name="Iterator.Array">
     <Position X="2.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAQAAACAAAAAAAAAAAAAAAAAAAAAAAAAAEAEA=</HashCode>
+      <HashCode>AAAAAAAAQAAACAAAAAAAAAAAAAAAAAAAAAAAgAAEAAA=</HashCode>
       <FileName>Array.cs</FileName>
     </TypeIdentifier>
     <ShowAsAssociation>
@@ -19,7 +19,7 @@
     <Lollipop Position="0.335" />
   </Class>
   <Class Name="Iterator.ArrayIterator">
-    <Position X="6.25" Y="4.5" Width="1.5" />
+    <Position X="5.5" Y="4.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
       <FileName>ArrayIterator.cs</FileName>
@@ -29,18 +29,18 @@
     </ShowAsAssociation>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="Iterator.Aggregator">
+  <Interface Name="Iterator.IAggregator">
     <Position X="2.5" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Aggregator.cs</FileName>
+      <FileName>IAggregator.cs</FileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="Iterator.Iterator">
-    <Position X="7.25" Y="2.25" Width="1.5" />
+  <Interface Name="Iterator.IIterator">
+    <Position X="5.25" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AgAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Iterator.cs</FileName>
+      <FileName>IIterator.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="D2Coding" Size="9.75" />

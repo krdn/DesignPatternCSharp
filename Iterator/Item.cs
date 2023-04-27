@@ -7,8 +7,8 @@ namespace Iterator
 {
     public class Item
     {
-        private string _name;
-        private int _cost;
+        private readonly string _name;
+        private readonly int    _cost;
 
         public Item(string name, int cost)
         {

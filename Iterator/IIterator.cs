@@ -5,8 +5,9 @@ using System.Text;
 
 namespace Iterator
 {
-    public interface Aggregator
+    public interface IIterator
     {
-        Iterator Iterator();
+        bool Next();
+        object Current();
     }
 }
